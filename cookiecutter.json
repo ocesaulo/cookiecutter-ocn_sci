@@ -1,0 +1,23 @@
+{
+    "full_name": "Saulo M Soares",
+    "email": "ocesaulo@gmail.com",
+    "github_username": "ocesaulo",
+
+    "project_name": "Science Projects Boilerplate",
+    "repo_name": "ocn_sci",
+    "version": "0.1.0",
+    "package_name": "{{ cookiecutter.repo_name.lower().replace(' ', '_') }}",
+    "project_short_description": "A short description of your project",
+    "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"],
+    "pure_sci": "n",
+    "pure_soft": "n",
+
+    "pypi_username": "{{ cookiecutter.github_username }}",    
+    "readme_pypi_badge": true,
+    "readme_travis_badge": true,
+    "readme_readthedocs_badge": true,
+
+    "_extensions": ["jinja2_time.TimeExtension"]
+}
+
+

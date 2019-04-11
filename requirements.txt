@@ -1,0 +1,5 @@
+cookiecutter
+pytest
+Sphinx
+pip
+conda-autoenv
