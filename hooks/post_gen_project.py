@@ -47,7 +47,7 @@ if __name__ == '__main__':
 
     # delete all the .keep files, so that future git-ing don't track empty
     for root, dirs, files in os.walk("{{ cookiecutter.repo_name }}"):
-        for file_ in files if file_ == '.keep':
+        for file_ in [file_ for file_ in files if file_ == '.keep']:
             os.remove(os.path.join(root, file_))
 
     # initiate the local git repo, first commit and master/origin push
