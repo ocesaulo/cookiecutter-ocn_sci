@@ -39,5 +39,5 @@ doc/_build/
 *.bak
 
 # Everything on the data dir
-/data/
+# /data/
 

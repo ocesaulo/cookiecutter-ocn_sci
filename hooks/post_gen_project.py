@@ -41,6 +41,10 @@ if __name__ == '__main__':
     if 'Not open source' == '{{ cookiecutter.open_source_license }}':
         remove_file('LICENSE')
 
+    # add entry on gitignore for data dir
+    subprocess.call(['sed', '-i.bak', ''s/#\/data\//\/data\//'', '{{
+        cookiecutter.repo_name }}/.gitignore'])
+
     # initiate the local git repo, first commit and master/origin push
     subprocess.call(['git', 'init'])
     subprocess.call(['git', 'add', '*'])
