@@ -39,8 +39,6 @@ Installation
 2) Install conda-autoenv (https://github.com/sharonzhou/conda-autoenv)::
 
         pip install git+https://github.com/ocesaulo/conda-autoenv.git@develop
-
-   Move the .sh to your bash_profile or rc::
         echo "source `which conda_autoenv.sh`" >> ~/.bash_profile
  
 Usage/Example
