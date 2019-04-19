@@ -68,6 +68,9 @@ May want to add more specific templates for scripts, notebooks
 
 Improve the test and doc templating
 
+The conda_autoenv script seems to break (and break things) if user does not control default
+conda installation or at least a base env that is never deactivated
+
 Authors
 -------
 
